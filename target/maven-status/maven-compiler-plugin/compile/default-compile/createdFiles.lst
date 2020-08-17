@@ -1,0 +1,17 @@
+com/customermanager/customermanager/api/v1/dto/ErrorResponseDto.class
+com/customermanager/customermanager/api/v1/dto/CustomerResponseDto.class
+com/customermanager/customermanager/config/SwaggerConfig.class
+com/customermanager/customermanager/CustomerManagerApplication.class
+com/customermanager/customermanager/api/v1/dto/CustomerRequestDto.class
+com/customermanager/customermanager/domain/repository/CustomerRepository.class
+com/customermanager/customermanager/api/v1/handler/ApiExceptionHandler.class
+com/customermanager/customermanager/domain/model/Address.class
+com/customermanager/customermanager/exception/CustomerNotFoundException.class
+com/customermanager/customermanager/api/v1/dto/AddressRequestDto.class
+com/customermanager/customermanager/domain/service/CustomerService.class
+com/customermanager/customermanager/api/v1/dto/AddressResponseDto.class
+com/customermanager/customermanager/api/v1/mapper/CustomerMapper.class
+com/customermanager/customermanager/domain/model/Customer.class
+com/customermanager/customermanager/api/v1/controller/CustomerController.class
+com/customermanager/customermanager/api/v1/mapper/AddressMapper.class
+com/customermanager/customermanager/api/v1/mapper/CustomerMapper$1.class

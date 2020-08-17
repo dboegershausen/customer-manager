@@ -1,0 +1,12 @@
+version: "3"
+services:
+  tiss:
+    image: customermanager:0.0.1
+    ports:
+      - 8090:8090
+    environment:
+      - DATABASE_URL=jdbc:postgresql://customer-dbserver:5432/customer_manager  
+    networks:
+      - application
+networks:
+  application:

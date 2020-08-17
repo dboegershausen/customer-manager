@@ -1,0 +1,17 @@
+version: "3"
+services:
+  customer-dbserver:
+    image: postgres:latest
+    container_name: "postgres"
+    environment:
+      - POSTGRES_DB=customer_manager
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+    volumes:
+      - "./data/postgres:/var/lib/postgresql/data"
+    ports:
+      - 5433:5432
+    networks:
+      - application
+networks:
+  application:
