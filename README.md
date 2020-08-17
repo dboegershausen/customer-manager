@@ -34,7 +34,7 @@ Depois da imagem criada, para dar o start na aplicação basta apenas executar o
 A aplicação estará disponível e rodando na porta `8090`
 
 ## Utilizando a aplicação
-Para efetuar a consulta dos *endpoints* pode ser usado o postman [Insomnia](https://www.postman.com/downloads/). 
+Para efetuar a consulta dos *endpoints* pode ser usado o postman [Postman](https://www.postman.com/downloads/). 
 O arquivo com as Collecions/Requests é [Customer.postman_collection.json](/Customer.postman_collection.json), para utilizar
 basta você importar este arquivo pro seu __Postman__ e seu ambiente estará preparado.
 
